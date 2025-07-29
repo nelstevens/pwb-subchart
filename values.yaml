@@ -4,3 +4,10 @@ license:
   file:
     secret: rstudio-workbench-license
     secretKey: license.lic
+pod:
+  env:
+    - name: WORKBENCH_POSTGRES_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          name: rstudio-workbench-database
+          key: password
