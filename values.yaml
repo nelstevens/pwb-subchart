@@ -3,4 +3,4 @@ launcher:
 license:
   file:
     secret: rstudio-workbench-license
-    secretKey: rstudio-workbench.lic
+    secretKey: license.lic
