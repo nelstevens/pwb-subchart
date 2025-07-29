@@ -1,2 +1,6 @@
 launcher:
   enabled: false
+license:
+  file:
+    secret: rstudio-workbench-license
+    secretKey: rstudio-workbench.lic
