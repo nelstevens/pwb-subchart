@@ -12,15 +12,14 @@ rstudio-workbench:
           secretKeyRef:
             name: rstudio-workbench-database
             key: password
-  
-  # Persistent Volume Claim configuration
-  persistence:
-    enabled: true
-    accessModes:
-      - ReadWriteOnce
-    size: 10Gi
-    # storageClass: ""  # Use default storage class if not specified
   homeStorage:
     name: "pwb-pwb-subchart-pvc"
     mount: true
   userCreate: true
+# Persistent Volume Claim configuration
+persistence:
+  enabled: true
+  accessModes:
+    - ReadWriteOnce
+  size: 10Gi
+  # storageClass: ""  # Use default storage class if not specified
