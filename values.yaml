@@ -22,3 +22,4 @@ persistence:
 homeStorage:
   name: "pwb-pwb-subchart-pvc"
   mount: true
+userCreate: true
