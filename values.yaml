@@ -2,8 +2,7 @@ launcher:
   enabled: false
 license:
   file:
-    secret: rstudio-workbench-license
-    secretKey: rstudio-workbench.lic
+    contents: changeme
 pod:
   env:
     - name: WORKBENCH_POSTGRES_PASSWORD
