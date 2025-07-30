@@ -3,8 +3,8 @@ rstudio-workbench:
     enabled: false
   license:
     file:
-      contents: |
-        changeme
+      secret: rstudio-workbench-license
+      secretKey: rstudio-workbench.lic
   pod:
     env:
       - name: WORKBENCH_POSTGRES_PASSWORD
