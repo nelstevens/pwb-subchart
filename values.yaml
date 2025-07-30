@@ -2,7 +2,8 @@ launcher:
   enabled: false
 license:
   file:
-    contents: changeme
+    contents: |
+      changeme
 pod:
   env:
     - name: WORKBENCH_POSTGRES_PASSWORD
