@@ -19,3 +19,6 @@ persistence:
     - ReadWriteOnce
   size: 10Gi
   # storageClass: ""  # Use default storage class if not specified
+homeStorage:
+  name: "pwb-pwb-subchart-pvc"
+  mount: true
