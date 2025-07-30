@@ -16,6 +16,12 @@ rstudio-workbench:
     name: "pwb-pwb-subchart-pvc"
     mount: true
   userCreate: true
+  ingress:
+    enabled: true
+    ingressClassName: traefik
+    hosts:
+      - paths:
+        - /
 # Persistent Volume Claim configuration
 persistence:
   enabled: true
