@@ -13,3 +13,11 @@ pod:
           key: password
 homeStorage:
   create: true
+
+# Persistent Volume Claim configuration
+persistence:
+  enabled: true
+  accessModes:
+    - ReadWriteOnce
+  size: 10Gi
+  # storageClass: ""  # Use default storage class if not specified
