@@ -11,8 +11,6 @@ pod:
         secretKeyRef:
           name: rstudio-workbench-database
           key: password
-homeStorage:
-  create: true
 
 # Persistent Volume Claim configuration
 persistence:
